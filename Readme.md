@@ -1,6 +1,6 @@
 # Satelite image segmentation
 
-Detecting distribution buildings in satelite images using U-Net deep learning.
+Detecting warehouses and distribution centres in satelite images using U-Net deep learning.
 
 ## Participants
 
@@ -13,9 +13,9 @@ Detecting distribution buildings in satelite images using U-Net deep learning.
 
 ## Project description
 
-**Goal** We wish to locate box-like distribution buildings in Sentinel 2B satelite images. These images have pixels of approximately 10 x 10 meters in 12 spectral bands. We've trained a [U-NET](https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/) architecture on all these bands to predict specific building types.
+**Goal** We wish to locate box-like warehouses and distribution centres in Sentinel 2B satelite images. These images have pixels of approximately 10 x 10 meters in 12 spectral bands. We've trained a [U-NET](https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/) architecture on all these bands to predict specific building types.
 
-**Data** Beside the sentinel images, we've used two sources for labels, or ground thruths, of where distribution buildings are located.
+**Data** Beside the sentinel images, we've used two sources for labels, or ground thruths, of where warehouses and distribution centres are located.
 
  * Basisregistratie Adressen en Gebouwen, an official and complete registration of Dutch buildings, and
  * OpenstreetMap, a crowd sourced data set of buildings.
@@ -34,7 +34,7 @@ This figure shows some examples data examples.
  
 **Motivation** Proper detection allows monitoring natural landscapes to track down environmental issues caused by buildings and their related activities. In paticular the boxification of landscapes, which is a recent issue due to increased demand for home-delivered goods.
 
-**Results** Our current efforts lead to 75% recall and 64% precision when finding buildings inteded for distribution. Besides imperfect training and moddeling, the gap to perfect classification is likely caused by Bayesian error and the imbalance between data. The former is illustrated by the buildings marked for detection in the figure below. 
+**Results** Our current efforts lead to 75% recall and 64% precision when finding buildings inteded for warehousing. Besides imperfect training and moddeling, the gap to perfect classification is likely caused by Bayesian error and the imbalance between data. The former is illustrated by the buildings marked for detection in the figure below. 
 
 
 <table>
