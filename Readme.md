@@ -22,11 +22,9 @@ Detecting distribution buildings in satelite images using U-Net deep learning.
 
 This figure shows some examples data examples.
 
-![Figure 1. Training Examples]()
-
 <table>
   <tr>
-    <td>![Example data](images/training-examples.png)</td>
+    <td><img src="images/training-examples.png"/>
   </tr>
   <tr>
     <td>Figure 1. Example data</td>
@@ -60,7 +58,7 @@ The labels, or ground truth, is marked red. One can see that many other building
   </tr>
 </table>
 
-## Code
+## Implementation
 
 **Dependencies** Our code is based on `Python 3`, `Keras` and common libraries in this context like `matplotlib`. We also used `CGAL` to translate between coordinate systems and pixels, and `shapely` to apply polygon operations.
 
