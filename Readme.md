@@ -23,8 +23,8 @@ Detecting distribution buildings in satelite images using U-Net deep learning.
 This figure shows some examples data examples.
 
 <table>
-  <tr>
-    <td><img src="images/training-examples.png"/>
+  <tr>	
+    <td><img src="images/example-prediction.png"/>
     
   </tr>
   <tr>
@@ -51,8 +51,8 @@ The labels, or ground truth, is marked red. One can see that many other building
 
 <table>
   <tr>
-    <td>![Example 1](images/example-2017-2019-01.png)</td>
-    <td>![Example 2](images/example-2017-2019-02.png)</td>
+    <td><img src="images/example-2017-2019-01.png"/></td>
+    <td><img src="(images/example-2017-2019-02.png"/></td>
   </tr>
   <tr>
     <td colspan="2">Figure 3. Examples of detected 2019 buildings that weren't build yet in 2017.</td>
@@ -69,7 +69,7 @@ The labels, or ground truth, is marked red. One can see that many other building
 
 <table>
   <tr>
-    <td>![Example 1](images/channel-distribution.png)</td>
+    <td><img src="images/channel-distribution.png"/></td>
   </tr>
   <tr>
     <td colspan="2">Figure 4. distribution of the 12 sentinel bands.</td>
