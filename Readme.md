@@ -76,12 +76,14 @@ The labels, or ground truth, is marked red. One can see that many other building
   </tr>
 </table>
 
- * [Notebook: Estimate distributions of channels](Notebook: Estimate distributions of channels)
- * [Notebook: Rasterize polygons](notebooks/preprocessing/Create Training Data masks.ipynb)
- * [Notebook: Cutout relevant regions](notebooks/preprocessing/Estimate mean and stddev.ipynb)
+ * [Notebook: Estimate distributions of channels](notebooks/preprocessing/Estimate%20mean%20and%20stddev.ipynb)
+ * [Notebook: Rasterize polygons](notebooks/preprocessing/Create%20Training%20Data%20masks.ipynb)
+ * [Notebook: Cutout relevant regions](notebooks/preprocessing/Estimate%20mean%20and%20stddev.ipynb)
 
 **Machine Learning** For cross validation purposes, we've explicitely left out certain satelite images for either validation or testing. These were originally selected using `train_test_split`, but later fixed to allow for better reproducibility. This could not be done with a seed, for example when the order of the samples in our dataset would change due to different preprocessing.
 
- * [Notebook: Machine learning, training and validations](notebooks/machine-learning/Train U-NET.ipynb)
+
+
+ * [Notebook: Machine learning, training and validations](notebooks/machine-learning/Train%20U-NET.ipynb)
 
 
