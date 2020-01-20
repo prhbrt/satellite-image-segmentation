@@ -25,6 +25,7 @@ This figure shows some examples data examples.
 <table>
   <tr>
     <td><img src="images/training-examples.png"/>
+    
   </tr>
   <tr>
     <td>Figure 1. Example data</td>
@@ -38,7 +39,7 @@ This figure shows some examples data examples.
 
 <table>
   <tr>
-    <td>![Bayesian error](images/bayesian-error-illustrated.png)</td>
+    <td><img src="images/example-data.png"/></td>
   </tr>
   <tr>
     <td>Figure 2. Bayesian error illustrated. The red labels are to be detected, however many buildings outside of these red regions look similar from above.</td>
