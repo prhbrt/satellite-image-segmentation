@@ -52,7 +52,7 @@ The labels, or ground truth, is marked red. One can see that many other building
 <table>
   <tr>
     <td><img src="images/example-2017-2019-01.png"/></td>
-    <td><img src="(images/example-2017-2019-02.png"/></td>
+    <td><img src="images/example-2017-2019-02.png"/></td>
   </tr>
   <tr>
     <td colspan="2">Figure 3. Examples of detected 2019 buildings that weren't build yet in 2017.</td>
